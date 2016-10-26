@@ -11,6 +11,9 @@ import (
 
 )
 
+//noinspection GoUnusedConst
+const NAME = "AUTHENTICATION"
+
 var regexpBearer = regexp.MustCompile("^Bearer\\s([A-Za-z0-9\\-\\._~\\+\\/]+=*)$")
 
 type OpCallback func ( *router.Route, *http.Request, *jwt.MapClaims ) *HandlerError
