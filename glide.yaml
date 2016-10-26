@@ -1,0 +1,3 @@
+package: github.com/Tlantic/goway-jwt-handler
+import:
+- package: github.com/dgrijalva/jwt-go
