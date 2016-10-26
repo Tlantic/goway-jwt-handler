@@ -1,7 +1,0 @@
-package: github.com/Tlantic/goway-jwt-handler
-import:
-- package: github.com/andrepinto/goway
-  subpackages:
-  - handlers
-  - router
-- package: github.com/dgrijalva/jwt-go
